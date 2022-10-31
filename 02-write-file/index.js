@@ -14,9 +14,9 @@ rl.on('line', (input) => {
   if (input === 'exit') {
     process.exit();
   } else {
-    result.write(`Your question: ${input}\n`)
-    stdout.write(`Your question: ${input}\n`)
-    stdout.write('Next question\n')
+    result.write(`Your question: ${input}\n`);
+    stdout.write(`Your question: ${input}\n`);
+    stdout.write('Next question\n');
   }
 });
 
